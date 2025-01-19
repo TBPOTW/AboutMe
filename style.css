@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('/img/nature.jpg') 
+    background: url('nature.jpg') 
     no-repeat center center fixed; /* Путь к картинке */
     background-size: cover; /* Чтобы картинка покрывала весь экран */
     position: relative; /* Для размещения затемняющего слоя */
