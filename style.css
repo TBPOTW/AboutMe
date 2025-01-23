@@ -126,7 +126,9 @@ nav a:hover, a:active {
     .block {
         font-size: 25px;
     }
-    
+    .page-link {
+        font-size: 15px;
+    }
 }
 @media (max-width: 550px) {
     .title {
