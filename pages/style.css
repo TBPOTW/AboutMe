@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    text-decoration: double;
+}
+
+.content {
+    margin-top: 70px; /* Высота панели + небольшой отступ */
+    padding: 50px;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+
+.block {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-indent: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white; /* Белый фон панели */
+    padding: 10px 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Создание тени */
+    position: fixed; /* Фиксированное положение панели */
+    top: 0; /* Прилегание к верхней части страницы */
+    width: 100%; /* Панель на всю ширину окна */
+    z-index: 1000; /* Установить панель поверх других элементов */
+}
+
+.page-link {
+    color: grey; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 30px; /* Размер шрифта */
+    padding: 5px 10px; /* Внутренние отступы для кнопок */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.page-link:hover {
+    background-color: #aaaaaa; /* Цвет фона при наведении */
+    color: lightblue; /* Цвет текста при наведении */
+}
+
+nav a {
+    color:black;
+}
+nav a:hover, a:active {
+    color: pink;
+}
+
+.social-icons a {
+    color: lightblue;
+    display: inline-flex;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.social-icons a:hover {
+    color: lightblue;
+    scale: 1.3;
+    justify-content: center;
+}
+
+.list-lang {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.list-lang h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.list-lang ul {
+    list-style-type: disc; /* Стандартные маркеры (точки) */
+    list-style-position: inside;
+    margin: 0; /* Убираем внешний отступ у списка */
+    padding: 0; /* Убираем внутренний отступ */
+}
+
+.list-lang ul li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+    .title {
+        font-size: 50px;
+    }
+    .header {
+        font-size: 30px;
+    }
+    .content {
+        font-size: 25px;
+    }
+    .block {
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 550px) {
+    .title {
+        font-size: 40px;
+    }
+    .header {
+        font-size: 25px;
+    }
+    .content {
+        font-size: 25px;
+    }
+    .block {
+        font-size: 15px;
+    }
+}
