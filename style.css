@@ -16,6 +16,10 @@ body {
     text-decoration: double;
 }
 
+.italic-text {
+    color: rgb(70, 70, 70);
+}
+
 .content {
     margin-top: 70px; /* Высота панели + небольшой отступ */
     padding: 50px;
